@@ -4,11 +4,11 @@ phases:
     commands:
       - echo Restore started on `date`
       - pip install --upgrade awscli
-      - dotnet restore HelloWorldWeb.csproj
+      - dotnet restore HelloWorldWeb/HelloWorldWeb.csproj
   build:
     commands:
       - echo Build started on `date`
-      - dotnet publish -c release -o ./build_output HelloWorldWeb.csproj
+      - dotnet publish -c release -o ./build_output HelloWorldWeb/HelloWorldWeb.csproj
 artifacts:
   files:
     - HelloWorldWeb/build_output/**/*
