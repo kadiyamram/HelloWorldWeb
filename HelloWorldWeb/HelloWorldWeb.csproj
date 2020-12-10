@@ -64,6 +64,13 @@
   <ItemGroup>
     <Content Include="Helloworld.aspx" />
     <Content Include="packages.config" />
+    <Content Include="appspec.yml" />
+    <Content Include="buildspec.yml" />
+    <Content Include="scripts\after_install.sh" />
+    <Content Include="scripts\install_dependencies.sh" />
+    <Content Include="scripts\start_server.sh" />
+    <Content Include="scripts\stop_server.sh" />
+    <Content Include="scripts\validate_service.sh" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
