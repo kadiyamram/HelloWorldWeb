@@ -1,6 +1,6 @@
 version: 0.0
-os: linux
+os: windows
 files:
-  - source: /Helloworld.aspx
+  - source: HelloWorldWeb/Helloworld.aspx
     destination: /var/www/html/
 
